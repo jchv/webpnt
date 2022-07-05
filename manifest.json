@@ -1,0 +1,14 @@
+{
+	"manifest_version": 2,
+	"name": "WebPn't",
+	"description": "Prevents your browser from advertising WebP support.",
+	"version": "1.0",
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+        "webRequest",
+        "webRequestBlocking",
+        "*://*/"
+    ]
+}
